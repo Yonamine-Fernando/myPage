@@ -1,9 +1,17 @@
 {
-    "nav": {
-        "home": "Home",
-        "sobre": "About",
-        "skills": "Skills",
-        "projetos": "Projects",
-        "contato": "Contact"
-    }
+  "nav": {
+    "home": "Home",
+    "sobre": "About",
+    "skills": "Skills",
+    "projetos": "Projects",
+    "contato": "Contact"
+  },
+  "hero.avatar_alt": "profile photo",
+  "hero.headline": "Hello I am,",
+  "hero.name": "Fernando Yonamine",
+  "hero.subline": "I am a developer in career transition to the Information Technology area, driven by curiosity and the desire to solve real problems through technology. \nI have always been interested in the tech world, but it was with digital evolution and the growing demand for online solutions that I decided to transform this interest into a profession.",
+  "hero.greeting": "Fullstack developer in training",
+  "hero.cta_projects": "View Projects",
+  "hero.cta_contact": "Contacts",
+  "hero.cta_cv": "Download CV"
 }
