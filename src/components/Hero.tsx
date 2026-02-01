@@ -6,37 +6,37 @@ export function Hero() {
     return (
         <section className="py-20 flex flex-col items-center justify-center text-center">
             
-            {/* Foto de Perfil com Animação sutil */}
+    
             <div className="relative mb-8">
                 <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-blue-500/30 shadow-2xl">
                     <img 
                         className="w-full h-full object-cover"
-                        src="/avatar.png" // Certifique-se que a imagem existe em public/
+                        src="/avatar.png" 
                         alt={t('hero.avatar_alt')} 
                     />
                 </div>
             </div>
 
-            {/* Textos Principais */}
+          
             <div className="space-y-4 max-w-2xl px-4">
-                <p className="font-mono text-blue-400 text-lg">
-                    {t('hero.headline')} {/* "Olá, sou" */}
+                <p className="font-mono text-lg">
+                    {t('hero.headline')} 
                 </p>
                 
-                <h1 className="text-5xl md:text-7xl font-bold bg-linear-to-r from-white to-gray-400 bg-clip-text text-transparent">
-                    {t('hero.name')} {/* "Fernando Yonamine" */}
+                <h1 className="bg-linear-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+                    {t('hero.name')}
                 </h1>
 
                 <h2 className="text-xl md:text-2xl text-gray-300 font-medium">
-                    {t('hero.greeting')} {/* "Dev Fullstack..." */}
+                    {t('hero.greeting')} 
                 </h2>
 
                 <p className="text-gray-400 leading-relaxed text-base md:text-lg pt-4">
-                    {t('hero.subline')} {/* Texto longo de apresentação */}
+                    {t('hero.subline')} 
                 </p>
             </div>
 
-            {/* Botões de Ação (CTAs) */}
+           
             <div className="flex flex-col md:flex-row gap-4 mt-10">
                 <a 
                     href="#projects" 
