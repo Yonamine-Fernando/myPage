@@ -36,7 +36,7 @@ export function Hero() {
             </div>
 
 
-            <div className="flex items-center justify-center gap-5 sm:flex-row">
+            <div className="flex flex-col items-center justify-center gap-5 sm:flex-row">
                 <a
                     href="#projects"
                     className="inline-flex h-11 items-center justify-center group bg-gradient-primary from-primary to-accent px-8 rounded hover:border-gray-400 border hover:text-secondary"
@@ -49,7 +49,7 @@ export function Hero() {
                     href="https://github.com/Yonamine-Fernando"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center whitespace-nowrap text-sm border rounded h-11 px-8 gap-2 border-border/50 bg-card/50 font-medium backdrop-blur-sm transition-all duration-300 hover:border-primary/50 hover:bg-primary/5 hover:text-primary"
+                    className="inline-flex items-center justify-center whitespace-nowrap text-sm border rounded h-11 w-45 px-8 gap-2 border-border/50 bg-card/50 font-medium backdrop-blur-sm transition-all duration-300 hover:border-primary/50 hover:bg-primary/5 hover:text-primary"
                 >
                     <Github className="h-4 w-4" />
                     <span className="ml-2">{t('hero.cta_github')}</span>
