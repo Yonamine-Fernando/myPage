@@ -22,7 +22,7 @@ export function LanguageSwitcher() {
     const { i18n } = useTranslation();
 
     return (
-        <div className="flex items-center gap-2 bg-background/50 border border-accent/30 rounded-full px-3 py-2.5 shadow-accent-glow backdrop-blur-md">
+        <div className="flex items-center gap-2 bg-background/50 border border-accent/30 rounded px-3 py-2.5 shadow-accent-glow backdrop-blur-md">
             {languageOptions.map((option) => {
                 const isActive = i18n.language === option.value;
                 return (
