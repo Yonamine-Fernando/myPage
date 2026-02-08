@@ -66,8 +66,8 @@
 
 
 
-    --glow-primary: 0 0 20px hsl(191 100% 50% / 0.4);
-    --glow-accent: 0 0 20px hsl(280 48% 52% / 0.4);
+    --glow-primary:  hsl(191 100% 50% / 0.4);
+    --glow-accent:  hsl(280 48% 52% / 0.4);
     
     --gradient-primary: linear-gradient(
       135deg,

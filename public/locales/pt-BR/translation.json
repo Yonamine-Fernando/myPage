@@ -6,13 +6,25 @@
     "projetos": "Projetos",
     "contato": "Contato"
   },
-  "hero.avatar_alt": "foto do perfil",
-  "hero.headline": "Olá sou,",
-  "hero.name": "Fernando Yonamine",
-  "hero.subline": "Sou um desenvolvedor em transição de carreira para a área de Tecnologia da Informação, movido pela curiosidade e pelo desejo de resolver problemas reais por meio da tecnologia. Sempre tive interesse pelo mundo tech, mas foi com a evolução digital e a crescente demanda por soluções online que decidi transformar esse interesse em profissão.",
-  "hero.greeting": "Desenvolvedor fullstack em formação",
-  "hero.cta_projects": "Ver Projetos",
-  "hero.cta_contact": "Contatos",
-  "hero.cta_cv": "Download CV",
-  "hero.cta_github": "GitHub"
+  "hero": {
+    "avatar_alt": "foto do perfil",
+    "headline": "Olá sou,",
+    "name": "Fernando Yonamine",
+    "subline": "Sou um desenvolvedor em transição de carreira para a área de Tecnologia da Informação, movido pela curiosidade e pelo desejo de resolver problemas reais por meio da tecnologia. Sempre tive interesse pelo mundo tech, mas foi com a evolução digital e a crescente demanda por soluções online que decidi transformar esse interesse em profissão.",
+    "greeting": "Desenvolvedor fullstack em formação",
+    "cta_projects": "Ver Projetos",
+    "cta_contact": "Contatos",
+    "cta_cv": "Download CV",
+    "cta_github": "GitHub"
+  },
+  "about": {
+    "title": "Sobre mim",
+    "description": [
+      "Formado em Administração e atualmente vivendo no Japão, construí minha trajetória profissional atuando em diferentes setores, o que me proporcionou uma base sólida em resolução de problemas, trabalho em equipe e visão de processos.",
+      
+      "Sempre tive interesse por tecnologia e pela forma como as soluções digitais são construídas. Esse interesse me levou a decidir migrar para a área de TI, passando a me dedicar ao estudo e à prática do desenvolvimento web fullstack, trabalhando com tecnologias como React, TypeScript, Node.js e PostgreSQL.",
+
+      "Acredito que um bom código é aquele que resolve o problema de forma clara, simples e bem estruturada. Antes de escrever a primeira linha, procuro entender o contexto e os objetivos da solução, valorizando tanto a qualidade técnica quanto a experiência de quem vai utilizar e manter o sistema. Vejo o aprendizado como um processo contínuo e encaro minha transição para a área de TI como uma evolução natural da minha trajetória profissional, buscando construir soluções que façam sentido na prática."
+    ]
+  }
 }
