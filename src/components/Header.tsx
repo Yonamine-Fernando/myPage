@@ -30,7 +30,7 @@ export function Header() {
 
           <div className="justify-self-center flex items-center">
             
-            <nav className="hidden lg:flex items-center gap-8">
+            <nav className="hidden lg:flex  whitespace-nowrap items-center gap-8">
               {navItems.map((item) => (
                 <a
                   key={item.href}
