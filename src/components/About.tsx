@@ -1,4 +1,13 @@
 import { useTranslation } from "react-i18next";
+import { Zap, Code2, Layers } from 'lucide-react'
+import { Card } from "./Card";
+
+const softSkillsIcons = [Zap, Code2, Layers] as const
+
+interface skillData {
+    title: string;
+    description: string
+}
 
 export function About() {
 
@@ -6,20 +15,20 @@ export function About() {
 
     const description = t("about.description", { returnObjects: true }) as string[];
 
+    const softSkills = t("about.card", { returnObjects: true }) as skillData[];
+
     return (
-        <section id="about" className="lg:py-32 relative">
+        <section id="about" className="relative">
             <div className="container mx-auto px-4">
                 <div className="text-center  mb-16">
                     <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gradient-primary">
                         {t("about.title")}
                     </h2>
                 </div>
-
                 <div className="flex gap-6 lg:gap-8 items-center mb-16 max-w-5xl mx-auto">
                     <div className="relative sm:w-56 sm:h-56 rounded-2xl bg-card border border-accent/30 overflow-hidden">
                         <img className="w-full h-full object-cover" src="/logo.png" alt="imagem do logo FY-Dev" />
                     </div>
-
                     <div className="space-y-6 order-1 lg:order-2 flex-1 text-center lg:text-left">
                         {description.map(function (paragraph, index) {
                             return (
@@ -29,6 +38,19 @@ export function About() {
                             );
                         })}
                     </div>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 m-10">
+                    {softSkillsIcons.map((IconComponent, index) => {
+                        const skillData = softSkills[index]
+                        return (
+                            <Card
+                                key={index}
+                                title={skillData.title}
+                                description={skillData.description}
+                                icon={<IconComponent className=" w-full h-full" />}
+                            />
+                        )
+                    })}
                 </div>
             </div>
         </section>
