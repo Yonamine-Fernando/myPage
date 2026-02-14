@@ -24,20 +24,23 @@
       "Sempre tive interesse por tecnologia e pela forma como as soluções digitais são construídas. Esse interesse me levou a decidir migrar para a área de TI, passando a me dedicar ao estudo e à prática do desenvolvimento web fullstack, trabalhando com tecnologias como React, TypeScript, Node.js e PostgreSQL.",
       "Acredito que um bom código é aquele que resolve o problema de forma clara, simples e bem estruturada. Antes de escrever a primeira linha, procuro entender o contexto e os objetivos da solução, valorizando tanto a qualidade técnica quanto a experiência de quem vai utilizar e manter o sistema. Vejo o aprendizado como um processo contínuo e encaro minha transição para a área de TI como uma evolução natural da minha trajetória profissional, buscando construir soluções que façam sentido na prática."
     ],
-
-    "card":[
+    "card": [
       {
-        "title":"Aprdizado Ágil",
-        "description":"Facilidade para aprender coisas novas e gosto de colocar o conhecimento em prática, testando, errando e ajustando até entender de verdade."
+        "title": "Aprdizado Ágil",
+        "description": "Facilidade para aprender coisas novas e gosto de colocar o conhecimento em prática, testando, errando e ajustando até entender de verdade."
       },
       {
-        "title":"Código Limpo",
-        "description":"Escrever códigos simples e organizados, pensando não só em funcionar, mas em ser fácil de ler, entender e melhorar depois."
+        "title": "Código Limpo",
+        "description": "Escrever códigos simples e organizados, pensando não só em funcionar, mas em ser fácil de ler, entender e melhorar depois."
       },
       {
-         "title":"Evolução Contínua",
-        "description":"Estou sempre buscando evoluir, revisando o que já fiz, aprendendo com feedbacks e fortalecendo os fundamentos um passo de cada vez."
+        "title": "Evolução Contínua",
+        "description": "Estou sempre buscando evoluir, revisando o que já fiz, aprendendo com feedbacks e fortalecendo os fundamentos um passo de cada vez."
       }
     ]
+  },
+  "technologies": {
+    "title": "Tecnologias",
+    "description": "Tecnologias que venho estudando e aplicando de forma prática, fortalecendo minha base como desenvolvedor Fullstack e evoluindo de maneira consistente a cada projeto."
   }
 }

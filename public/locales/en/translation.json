@@ -21,9 +21,7 @@
     "title": "About me",
     "description": [
       "Holding a Bachelor’s Degree in Business Administration and currently living in Japan, I have built a professional path across diverse sectors. This background has provided me with a solid foundation in problem-solving, teamwork, and process optimization.",
-
       "I’ve always been fascinated by technology and how digital solutions are crafted. This interest led me to pivot into the IT field, where I am now dedicated to studying and practicing full-stack web development, working with technologies such as React, TypeScript, Node.js, and PostgreSQL.",
-
       "I believe that good code is clear, simple, and well-structured. Before writing the first line, I strive to understand the context and the goals of the solution, valuing both technical quality and the experience of those who will use and maintain the system. I see learning as a continuous process and view my transition to IT as a natural evolution of my professional journey, seeking to build solutions that make a practical impact."
     ],
     "card": [
@@ -31,16 +29,18 @@
         "title": "Agile Learning",
         "description": "I have a natural ability to pick up new concepts quickly and a hands-on approach to knowledge. I enjoy the process of testing, troubleshooting, and refining my work until I’ve truly mastered the logic behind it."
       },
-
       {
         "title": "Clean Code",
         "description": "I prioritize writing simple, organized code. My goal is to ensure that my work isn't just functional, but also readable and maintainable for anyone who needs to build upon it later."
       },
-
       {
         "title": "Continuous Growth",
         "description": "I am committed to constant improvement. Whether it's reviewing my previous projects or acting on feedback, I focus on strengthening my foundations and evolving my skills one step at a time."
       }
     ]
+  },
+  "technologies": {
+    "title": "Technologies",
+    "description": "Technologies I’ve been studying and applying in practice, strengthening my foundation as a Fullstack developer and consistently evolving with every project."
   }
 }
